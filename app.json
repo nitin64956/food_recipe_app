@@ -3,15 +3,13 @@
     "name": "Meals_App",
     "slug": "Meals_App",
     "platforms": [
-      "ios",
-      "android",
-      "web"
+      "android"
     ],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/food.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/foodsplash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -21,8 +19,10 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-    "ios": {
-      "supportsTablet": true
+    "android": {
+
+      "package":"com.nitin.meals_app" 
+
     }
   }
 }
